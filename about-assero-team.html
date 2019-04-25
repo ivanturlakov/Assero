@@ -1,0 +1,734 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<title>ASSERO SERVICES</title>
+<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,200,200italic,300,300italic,400italic,600,600italic,700,700italic&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="css/slick.css">
+<link rel="stylesheet" href="css/sumoselect.css">
+<link rel="stylesheet" href="css/jquery.fancybox.css">
+<link rel="stylesheet" href="style.css">
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+<![endif]-->
+</head>
+<body>
+<div class="menu-overlay"></div>
+
+<header>
+ <a href="/" class="logo" title="ASSERO SERVICES"><img src="img/assero_logo.png" width="187" height="63" alt=""/></a>
+ <a href="#" class="menu-toggle">Menu <span><i></i><i></i><i></i></span></a>
+ 
+ <ul class="nav">
+  <li class="has-children"><a href="#">ABOUT</a>
+   <ul>
+    <li><a href="about-company.html"><img src="img/company_thumb.jpg" width="450" height="225" alt=""/><span>Company</span></a></li>
+    <li><a href="#"><img src="img/values_thumb.jpg" width="450" height="225" alt=""/><span>Our Values</span></a></li>
+    <li><a href="#"><img src="img/team_thumb.jpg" width="450" height="225" alt=""/><span>The Assero Team</span></a></li>
+    <li><a href="#"><img src="img/fieldcrew_thumb.jpg" width="450" height="225" alt=""/><span>Our Field Crews</span></a></li>
+    <li><a href="#"><img src="img/contact_thumb.jpg" width="450" height="225" alt=""/><span>Contact Us</span></a></li>
+   </ul>
+  </li>
+  <li class="has-children"><a href="services.html">SERVICES</a>
+   <ul>
+    <li><a href="#"><img src="img/reo_thumb.jpg" width="450" height="225" alt=""/><span>REO Field Services</span></a></li>
+    <li><a href="#"><img src="img/preservation_thumb.jpg" width="450" height="225" alt=""/><span>Preservation</span></a></li>
+    <li><a href="#"><img src="img/asset_thumb.jpg" width="450" height="225" alt=""/><span>Asset Management</span></a></li>
+    <li><a href="#"><img src="img/utility_thumb.jpg" width="450" height="225" alt=""/><span>Utility & HOA</span></a></li>
+    <li><a href="#"><img src="img/technology_thumb.jpg" width="450" height="225" alt=""/><span>Technology</span></a></li>
+   </ul>
+  </li>
+  <li class="has-children"><a href="resources.html">RESOURCES</a>
+   <ul>
+    <li><a href="#"><img src="img/documentlibrary_thumb.jpg" width="450" height="225" alt=""/><span>Document Library</span></a></li>
+    <li><a href="#"><img src="img/searchproperties_thumb.jpg" width="450" height="225" alt=""/><span>Search Properties</span></a></li>
+    <li><a href="#"><img src="img/propertyresults_thumb.jpg" width="450" height="225" alt=""/><span>Property Results Page</span></a></li>
+    <li><a href="#"><img src="img/propertydetails_thumb.jpg" width="450" height="225" alt=""/><span>Property Details Page</span></a></li>
+    <li><a href="#"><img src="img/links_thumb.jpg" width="450" height="225" alt=""/><span>Links</span></a></li>
+   </ul>
+  </li>
+  <li class="has-children"><a href="contact.html">CONTACT</a>
+   <ul>
+    <li><a href="#"><img src="img/vendors_thumb.jpg" width="450" height="225" alt=""/><span>Vendors</span></a></li>
+    <li><a href="#"><img src="img/brokers_thumb.jpg" width="450" height="225" alt=""/><span>Brokers</span></a></li>
+    <li><a href="#"><img src="img/homebuyers_thumb.jpg" width="450" height="225" alt=""/><span>Home Buyers</span></a></li>
+    <li><a href="#"><img src="img/employees_thumb.jpg" width="450" height="225" alt=""/><span>Employees</span></a></li>
+    <li><a href="#"><img src="img/contact_thumb.jpg" width="450" height="225" alt=""/><span>Contact Us</span></a></li>
+   </ul>
+  </li>
+ </ul>
+ 
+ <div class="links">
+
+  <a href="#" class="login user-option"></a>
+  <div class="login-menu links-sub-menu">
+   <form>
+    <input type="text" placeholder="USERNAME" required>
+    <input type="password" placeholder="PASSWORD" required>
+    <input class="desktop-only" type="button" value="SIGN IN">
+    <input class="mobile-only" type="button" value="SIGNIN">
+    <a href="#" class="forgot-toggle"><span>Forgot Password</span>?</a>
+   </form>
+  </div>
+  
+  <a href="#" class="social user-option"></a>
+  <div class="social-menu links-sub-menu">
+   <a href="#" class="facebook">FACEBOOK</a>
+   <a href="#" class="twitter">TWITTER</a>
+   <a href="#" class="linkedin">LINKEDIN</a>
+   <a href="#" class="youtube">YOUTUBE</a>
+  </div>
+  
+  <a href="#" class="search user-option"></a>
+  <div class="search-menu links-sub-menu">
+   <form>
+    <select class="select-location">
+        <option value="0">All Homes</option>
+        <option value="1">Home 1</option>
+        <option value="2">Home 2</option>
+        <option value="3">Home 3</option>
+    </select>
+    <input class="desktop-only" type="text" placeholder="Enter address, city, state or zip" required>
+    <input class="mobile-only" type="text" placeholder="Address, city, state, zip" required>
+    <input type="button" value="SEARCH">
+   </form>
+  </div>
+  
+ </div>
+
+ <div class="forgot-window">
+  <a href="#" class="forgot-toggle"></a>
+  <h1>FORGOT PASSWORD?</h1>
+  <form>
+   <input type="text" placeholder="EMAIL ADDRESS or PASSWORD" required>
+   <input type="button" value="SUBMIT">
+  </form>
+ </div>
+</header>
+
+<section class="page-banner">
+ <img src="img/about-banner-assero-team.jpg" width="1400" height="420" alt=""/>
+</section>
+
+<section class="category-nav">
+ <div class="wrapper">
+  <h1>About</h1>
+  <ul>
+   <li><a href="about-company.html">COMPANY</a></li>
+   <li><a href="about-our-values.html">OUR VALUES</a></li>
+   <li class="active"><a href="about-assero-team.html">THE ASSERO TEAM</a></li>
+   <li><a href="#">OUR FIELD CREWS</a></li>
+   <li><a href="#">CONTACT US</a></li>
+  </ul>
+  <div class="user-log">
+   <a href="#">SIGN IN</a>
+  </div>
+ </div>
+</div>
+</section>
+
+<section class="page-intro">
+ 
+  <div class="social-float">
+   <a href="#" class="phone"></a>
+   <a href="#" class="chat"></a>
+   <a href="#" class="facebook"></a>
+   <a href="#" class="twitter"></a>
+   <a href="#" class="linkedin"></a>
+  </div>
+ 
+ <div class="wrapper">
+  <div class="left">
+   <h2>The Assero Team
+helps you protect
+your assets and
+your business.</h2>
+   <p>Operationally driven, Assero Services
+lives a life of continuous improvement,
+with neither our leadership team nor
+our staff ever satisfied with just being
+good enough – we are driven by the
+need to succeed in all things we do,
+and our dedication to your project
+or program will bear the fruit of our
+combined efforts.</p>
+  </div>
+  <div class="right">
+   <h2>Our team saw the need for Field Service
+Companies, Brokers, and Sales to better
+listen to each other. As the industry has and
+will continue to evolve, Assero has become
+an industry leader through closely working
+with its partners to provide innovative
+solutions. </h2>
+  </div>
+ </div>
+</section>
+
+<section class="management-team">
+ <div class="wrapper">
+  <h2>Where we’re headed</h2>
+  <p>We believe technology should get out of the way, so there’s no limit to what people can do.
+We’re a thoughtful, tightly-knit team that’s committed to realizing ambitious ideas.
+We’re making technology work for the world, and the best is still to come.</p>
+  <div class="mng-list">
+   <div class="row" 
+       data-bottom-top="opacity:0; transform:translateY(250px);" 
+       data-bottom-bottom="opacity:1; transform:translateY(0);">
+    <div class="profile"> 
+     <div class="static">
+      <img src="img/brian-nisbet.png" width="180" height="180" alt=""/>
+      <h3>Brian Nisbet</h3>
+      <p>Chief Executive Officer
+Managing Partner</p>
+     </div>
+     <div class="expand">
+      <div class="profile-static">
+       <img src="img/brian-nisbet.png" width="180" height="180" alt=""/>
+       <h3>Brian Nisbet</h3>
+       <p>Chief Executive Officer Managing Partner</p>
+      </div>
+      <p>Lorem ipsum dolor sit amet, consectetuer adip
+iscing elit, sed diam nonummy nibh euismod tinci
+unt ut laoret dolore magna aliquam erat votpat.
+Ut wisi enim ad minim veniam, quis nostrud exer
+tation ullamcorper suscipit lobortis.</p>
+     </div>
+    </div>
+    <div class="profile">
+     <div class="static">
+      <img src="img/lee-mertins.png" width="180" height="180" alt=""/>
+      <h3>Lee Mertins</h3>
+      <p>Chief Operating Office
+Managing Partner</p>
+     </div>
+     <div class="expand">
+      <div class="profile-static">
+       <img src="img/lee-mertins.png" width="180" height="180" alt=""/>
+       <h3>Lee Mertins</h3>
+       <p>Chief Operating Office
+Managing Partner</p>
+      </div>
+      <p>Lorem ipsum dolor sit amet, consectetuer adip
+iscing elit, sed diam nonummy nibh euismod tinci
+unt ut laoret dolore magna aliquam erat votpat.
+Ut wisi enim ad minim veniam, quis nostrud exer
+tation ullamcorper suscipit lobortis.</p>
+     </div>
+    </div>
+    <div class="profile">
+     <div class="static">
+      <img src="img/eduardo-san-roman.png" width="180" height="180" alt=""/>
+      <h3>Eduardo San Roman</h3>
+      <p>Partner</p>
+     </div>
+     <div class="expand">
+      <div class="profile-static">
+       <img src="img/eduardo-san-roman.png" width="180" height="180" alt=""/>
+       <h3>Eduardo San Roman</h3>
+       <p>Partner</p>
+      </div>
+      <p>Lorem ipsum dolor sit amet, consectetuer adip
+iscing elit, sed diam nonummy nibh euismod tinci
+unt ut laoret dolore magna aliquam erat votpat.
+Ut wisi enim ad minim veniam, quis nostrud exer
+tation ullamcorper suscipit lobortis.</p>
+     </div>
+    </div>    
+   </div>
+   <div class="row"
+       data-bottom-top="opacity:0; transform:translateY(250px);" 
+       data-bottom-bottom="opacity:1; transform:translateY(0);">
+    <div class="profile">
+     <div class="static">
+      <img src="img/gregory-seale.png" width="180" height="180" alt=""/>
+      <h3>Gregory Seale</h3>
+      <p>Partner</p>
+     </div>
+     <div class="expand">
+      <div class="profile-static">
+       <img src="img/gregory-seale.png" width="180" height="180" alt=""/>
+       <h3>Gregory Seale</h3>
+       <p>Partner</p>
+      </div>
+      <p>Lorem ipsum dolor sit amet, consectetuer adip
+iscing elit, sed diam nonummy nibh euismod tinci
+unt ut laoret dolore magna aliquam erat votpat.
+Ut wisi enim ad minim veniam, quis nostrud exer
+tation ullamcorper suscipit lobortis.</p>
+     </div>
+    </div>
+    <div class="profile">
+     <div class="static">
+      <img src="img/james-hillsman.png" width="180" height="180" alt=""/>
+      <h3>James Hillsman</h3>
+      <p>Partner</p>
+     </div>
+     <div class="expand">
+      <div class="profile-static">
+       <img src="img/james-hillsman.png" width="180" height="180" alt=""/>
+       <h3>James Hillsman</h3>
+       <p>Partner</p>
+      </div>
+      <p>Lorem ipsum dolor sit amet, consectetuer adip
+iscing elit, sed diam nonummy nibh euismod tinci
+unt ut laoret dolore magna aliquam erat votpat.
+Ut wisi enim ad minim veniam, quis nostrud exer
+tation ullamcorper suscipit lobortis.</p>
+     </div>
+    </div>
+    <div class="profile">
+     <div class="static">
+      <img src="img/greg-harrison.png" width="180" height="180" alt=""/>
+      <h3>Greg Harrison</h3>
+      <p>Chief Procurement Officer</p>
+     </div>
+     <div class="expand">
+      <div class="profile-static">
+       <img src="img/greg-harrison.png" width="180" height="180" alt=""/>
+       <h3>Greg Harrison</h3>
+       <p>Chief Procurement Officer</p>
+      </div>
+      <p>Lorem ipsum dolor sit amet, consectetuer adip
+iscing elit, sed diam nonummy nibh euismod tinci
+unt ut laoret dolore magna aliquam erat votpat.
+Ut wisi enim ad minim veniam, quis nostrud exer
+tation ullamcorper suscipit lobortis.</p>
+     </div>
+    </div>    
+   </div>
+   <div class="row"
+       data-bottom-top="opacity:0; transform:translateY(250px);" 
+       data-bottom-bottom="opacity:1; transform:translateY(0);">
+    <div class="profile">
+     <div class="static">
+      <img src="img/lisa-shepherd.png" width="180" height="180" alt=""/>
+      <h3>Lisa Shepherd</h3>
+      <p>Executive Director of
+Property Preservation</p>
+     </div>
+     <div class="expand">
+      <div class="profile-static">
+       <img src="img/lisa-shepherd.png" width="180" height="180" alt=""/>
+       <h3>Lisa Shepherd</h3>
+       <p>Executive Director of
+Property Preservation</p>
+      </div>
+      <p>Lorem ipsum dolor sit amet, consectetuer adip
+iscing elit, sed diam nonummy nibh euismod tinci
+unt ut laoret dolore magna aliquam erat votpat.
+Ut wisi enim ad minim veniam, quis nostrud exer
+tation ullamcorper suscipit lobortis.</p>
+     </div>
+    </div>
+    <div class="profile">
+     <div class="static">
+      <img src="img/brian-christy.png" width="180" height="180" alt=""/>
+      <h3>Brian Christy</h3>
+      <p>National Director of Quality
+Control and Field Management</p>
+     </div>
+     <div class="expand">
+      <div class="profile-static">
+       <img src="img/brian-christy.png" width="180" height="180" alt=""/>
+       <h3>Brian Christy</h3>
+       <p>National Director of Quality
+Control and Field Management</p>
+      </div>
+      <p>Lorem ipsum dolor sit amet, consectetuer adip
+iscing elit, sed diam nonummy nibh euismod tinci
+unt ut laoret dolore magna aliquam erat votpat.
+Ut wisi enim ad minim veniam, quis nostrud exer
+tation ullamcorper suscipit lobortis.</p>
+     </div>
+    </div>
+    <div class="profile">
+     <div class="static">
+      <img src="img/richere-laporte.png" width="180" height="180" alt=""/>
+      <h3>Richere Laporte</h3>
+      <p>Director of HOA and
+Utility Management</p>
+     </div>
+     <div class="expand">
+      <div class="profile-static">
+       <img src="img/richere-laporte.png" width="180" height="180" alt=""/>
+       <h3>Richere Laporte</h3>
+       <p>Director of HOA and
+Utility Management</p>
+      </div>
+      <p>Lorem ipsum dolor sit amet, consectetuer adip
+iscing elit, sed diam nonummy nibh euismod tinci
+unt ut laoret dolore magna aliquam erat votpat.
+Ut wisi enim ad minim veniam, quis nostrud exer
+tation ullamcorper suscipit lobortis.</p>
+     </div>
+    </div>    
+   </div>
+  </div>
+ </div>
+</section>
+
+<section class="employers"
+       data-bottom-top="opacity:0; transform:translateY(250px);" 
+       data-center-top="opacity:1; transform:translateY(0);">
+       
+ <div class="item thumb-swipe">
+  <img class="item" src="img/employer-1.jpg" width="140" height="140" alt=""/>
+  <img class="item" src="img/employer-2.jpg" width="140" height="140" alt=""/>
+  <img class="item" src="img/employer-3.jpg" width="140" height="140" alt=""/>
+ </div>
+ <div class="item thumb-swipe">
+  <img class="item" src="img/employer-4.jpg" width="140" height="140" alt=""/>
+  <img class="item" src="img/employer-5.jpg" width="140" height="140" alt=""/>
+  <img class="item" src="img/employer-6.jpg" width="140" height="140" alt=""/>
+ </div>
+ <div class="item thumb-swipe">
+  <img class="item" src="img/employer-7.jpg" width="140" height="140" alt=""/>
+  <img class="item" src="img/employer-8.jpg" width="140" height="140" alt=""/>
+  <img class="item" src="img/employer-9.jpg" width="140" height="140" alt=""/>
+ </div>
+ <div class="item thumb-swipe">
+  <img class="item" src="img/employer-10.jpg" width="140" height="140" alt=""/>
+  <img class="item" src="img/employer-1.jpg" width="140" height="140" alt=""/>
+  <img class="item" src="img/employer-2.jpg" width="140" height="140" alt=""/>
+ </div>
+ <div class="item thumb-swipe">
+  <img class="item" src="img/employer-3.jpg" width="140" height="140" alt=""/>
+  <img class="item" src="img/employer-4.jpg" width="140" height="140" alt=""/>
+  <img class="item" src="img/employer-5.jpg" width="140" height="140" alt=""/>
+ </div>
+ <div class="item thumb-swipe">
+  <img class="item" src="img/employer-6.jpg" width="140" height="140" alt=""/>
+  <img class="item" src="img/employer-7.jpg" width="140" height="140" alt=""/>
+  <img class="item" src="img/employer-8.jpg" width="140" height="140" alt=""/>
+ </div>
+ <div class="item thumb-swipe">
+  <img class="item" src="img/employer-9.jpg" width="140" height="140" alt=""/>
+  <img class="item" src="img/employer-10.jpg" width="140" height="140" alt=""/>
+  <img class="item" src="img/employer-1.jpg" width="140" height="140" alt=""/>
+ </div>
+ <div class="item thumb-swipe">
+  <img class="item" src="img/employer-2.jpg" width="140" height="140" alt=""/>
+  <img class="item" src="img/employer-3.jpg" width="140" height="140" alt=""/>
+  <img class="item" src="img/employer-4.jpg" width="140" height="140" alt=""/>
+ </div>
+ <div class="item thumb-swipe">
+  <img class="item" src="img/employer-5.jpg" width="140" height="140" alt=""/>
+  <img class="item" src="img/employer-6.jpg" width="140" height="140" alt=""/>
+  <img class="item" src="img/employer-7.jpg" width="140" height="140" alt=""/>
+ </div>
+ <div class="item thumb-swipe">
+  <img class="item" src="img/employer-8.jpg" width="140" height="140" alt=""/>
+  <img class="item" src="img/employer-9.jpg" width="140" height="140" alt=""/>
+  <img class="item" src="img/employer-10.jpg" width="140" height="140" alt=""/>
+ </div>
+ 
+ <div class="item thumb-swipe">
+  <img class="item" src="img/employer-10.jpg" width="140" height="140" alt=""/>
+  <img class="item" src="img/employer-9.jpg" width="140" height="140" alt=""/>
+  <img class="item" src="img/employer-8.jpg" width="140" height="140" alt=""/>
+ </div>
+ <div class="item thumb-swipe">
+  <img class="item" src="img/employer-7.jpg" width="140" height="140" alt=""/>
+  <img class="item" src="img/employer-6.jpg" width="140" height="140" alt=""/>
+  <img class="item" src="img/employer-5.jpg" width="140" height="140" alt=""/>
+ </div>
+ <div class="item thumb-swipe">
+  <img class="item" src="img/employer-4.jpg" width="140" height="140" alt=""/>
+  <img class="item" src="img/employer-3.jpg" width="140" height="140" alt=""/>
+  <img class="item" src="img/employer-2.jpg" width="140" height="140" alt=""/>
+ </div>
+ <div class="item thumb-swipe">
+  <img class="item" src="img/employer-1.jpg" width="140" height="140" alt=""/>
+  <img class="item" src="img/employer-10.jpg" width="140" height="140" alt=""/>
+  <img class="item" src="img/employer-9.jpg" width="140" height="140" alt=""/>
+ </div>
+ <div class="item thumb-swipe">
+  <img class="item" src="img/employer-8.jpg" width="140" height="140" alt=""/>
+  <img class="item" src="img/employer-7.jpg" width="140" height="140" alt=""/>
+  <img class="item" src="img/employer-6.jpg" width="140" height="140" alt=""/>
+ </div>
+ <div class="item thumb-swipe">
+  <img class="item" src="img/employer-5.jpg" width="140" height="140" alt=""/>
+  <img class="item" src="img/employer-4.jpg" width="140" height="140" alt=""/>
+  <img class="item" src="img/employer-3.jpg" width="140" height="140" alt=""/>
+ </div>
+ 
+ <div class="desktop-only">
+ <div class="item thumb-swipe">
+  <img class="item" src="img/employer-2.jpg" width="140" height="140" alt=""/>
+  <img class="item" src="img/employer-1.jpg" width="140" height="140" alt=""/>
+  <img class="item" src="img/employer-10.jpg" width="140" height="140" alt=""/>
+ </div>
+ <div class="item thumb-swipe">
+  <img class="item" src="img/employer-9.jpg" width="140" height="140" alt=""/>
+  <img class="item" src="img/employer-8.jpg" width="140" height="140" alt=""/>
+  <img class="item" src="img/employer-7.jpg" width="140" height="140" alt=""/>
+ </div>
+ <div class="item thumb-swipe">
+  <img class="item" src="img/employer-6.jpg" width="140" height="140" alt=""/>
+  <img class="item" src="img/employer-5.jpg" width="140" height="140" alt=""/>
+  <img class="item" src="img/employer-4.jpg" width="140" height="140" alt=""/>
+ </div>
+ <div class="item thumb-swipe">
+  <img class="item" src="img/employer-3.jpg" width="140" height="140" alt=""/>
+  <img class="item" src="img/employer-2.jpg" width="140" height="140" alt=""/>
+  <img class="item" src="img/employer-1.jpg" width="140" height="140" alt=""/>
+ </div>
+ 
+ <div class="item thumb-swipe">
+  <img class="item" src="img/employer-1.jpg" width="140" height="140" alt=""/>
+  <img class="item" src="img/employer-2.jpg" width="140" height="140" alt=""/>
+  <img class="item" src="img/employer-3.jpg" width="140" height="140" alt=""/>
+ </div>
+ <div class="item thumb-swipe">
+  <img class="item" src="img/employer-4.jpg" width="140" height="140" alt=""/>
+  <img class="item" src="img/employer-5.jpg" width="140" height="140" alt=""/>
+  <img class="item" src="img/employer-6.jpg" width="140" height="140" alt=""/>
+ </div>
+ <div class="item thumb-swipe">
+  <img class="item" src="img/employer-7.jpg" width="140" height="140" alt=""/>
+  <img class="item" src="img/employer-8.jpg" width="140" height="140" alt=""/>
+  <img class="item" src="img/employer-9.jpg" width="140" height="140" alt=""/>
+ </div>
+ <div class="item thumb-swipe">
+  <img class="item" src="img/employer-10.jpg" width="140" height="140" alt=""/>
+  <img class="item" src="img/employer-1.jpg" width="140" height="140" alt=""/>
+  <img class="item" src="img/employer-2.jpg" width="140" height="140" alt=""/>
+ </div>
+ <div class="item thumb-swipe">
+  <img class="item" src="img/employer-3.jpg" width="140" height="140" alt=""/>
+  <img class="item" src="img/employer-4.jpg" width="140" height="140" alt=""/>
+  <img class="item" src="img/employer-5.jpg" width="140" height="140" alt=""/>
+ </div>
+ <div class="item thumb-swipe">
+  <img class="item" src="img/employer-6.jpg" width="140" height="140" alt=""/>
+  <img class="item" src="img/employer-7.jpg" width="140" height="140" alt=""/>
+  <img class="item" src="img/employer-8.jpg" width="140" height="140" alt=""/>
+ </div>
+ <div class="item thumb-swipe">
+  <img class="item" src="img/employer-9.jpg" width="140" height="140" alt=""/>
+  <img class="item" src="img/employer-10.jpg" width="140" height="140" alt=""/>
+  <img class="item" src="img/employer-1.jpg" width="140" height="140" alt=""/>
+ </div>
+ <div class="item thumb-swipe">
+  <img class="item" src="img/employer-2.jpg" width="140" height="140" alt=""/>
+  <img class="item" src="img/employer-3.jpg" width="140" height="140" alt=""/>
+  <img class="item" src="img/employer-4.jpg" width="140" height="140" alt=""/>
+ </div>
+ <div class="item thumb-swipe">
+  <img class="item" src="img/employer-5.jpg" width="140" height="140" alt=""/>
+  <img class="item" src="img/employer-6.jpg" width="140" height="140" alt=""/>
+  <img class="item" src="img/employer-7.jpg" width="140" height="140" alt=""/>
+ </div>
+ <div class="item thumb-swipe">
+  <img class="item" src="img/employer-8.jpg" width="140" height="140" alt=""/>
+  <img class="item" src="img/employer-9.jpg" width="140" height="140" alt=""/>
+  <img class="item" src="img/employer-10.jpg" width="140" height="140" alt=""/>
+ </div>
+ 
+ <div class="item thumb-swipe">
+  <img class="item" src="img/employer-10.jpg" width="140" height="140" alt=""/>
+  <img class="item" src="img/employer-9.jpg" width="140" height="140" alt=""/>
+  <img class="item" src="img/employer-8.jpg" width="140" height="140" alt=""/>
+ </div>
+ <div class="item thumb-swipe">
+  <img class="item" src="img/employer-7.jpg" width="140" height="140" alt=""/>
+  <img class="item" src="img/employer-6.jpg" width="140" height="140" alt=""/>
+  <img class="item" src="img/employer-5.jpg" width="140" height="140" alt=""/>
+ </div>
+ <div class="item thumb-swipe">
+  <img class="item" src="img/employer-4.jpg" width="140" height="140" alt=""/>
+  <img class="item" src="img/employer-3.jpg" width="140" height="140" alt=""/>
+  <img class="item" src="img/employer-2.jpg" width="140" height="140" alt=""/>
+ </div>
+ <div class="item thumb-swipe">
+  <img class="item" src="img/employer-1.jpg" width="140" height="140" alt=""/>
+  <img class="item" src="img/employer-10.jpg" width="140" height="140" alt=""/>
+  <img class="item" src="img/employer-9.jpg" width="140" height="140" alt=""/>
+ </div>
+ <div class="item thumb-swipe">
+  <img class="item" src="img/employer-8.jpg" width="140" height="140" alt=""/>
+  <img class="item" src="img/employer-7.jpg" width="140" height="140" alt=""/>
+  <img class="item" src="img/employer-6.jpg" width="140" height="140" alt=""/>
+ </div>
+ <div class="item thumb-swipe">
+  <img class="item" src="img/employer-5.jpg" width="140" height="140" alt=""/>
+  <img class="item" src="img/employer-4.jpg" width="140" height="140" alt=""/>
+  <img class="item" src="img/employer-3.jpg" width="140" height="140" alt=""/>
+ </div>
+ <div class="item thumb-swipe">
+  <img class="item" src="img/employer-2.jpg" width="140" height="140" alt=""/>
+  <img class="item" src="img/employer-1.jpg" width="140" height="140" alt=""/>
+  <img class="item" src="img/employer-10.jpg" width="140" height="140" alt=""/>
+ </div>
+ <div class="item thumb-swipe">
+  <img class="item" src="img/employer-9.jpg" width="140" height="140" alt=""/>
+  <img class="item" src="img/employer-8.jpg" width="140" height="140" alt=""/>
+  <img class="item" src="img/employer-7.jpg" width="140" height="140" alt=""/>
+ </div>
+ <div class="item thumb-swipe">
+  <img class="item" src="img/employer-6.jpg" width="140" height="140" alt=""/>
+  <img class="item" src="img/employer-5.jpg" width="140" height="140" alt=""/>
+  <img class="item" src="img/employer-4.jpg" width="140" height="140" alt=""/>
+ </div>
+ <div class="item thumb-swipe">
+  <img class="item" src="img/employer-3.jpg" width="140" height="140" alt=""/>
+  <img class="item" src="img/employer-2.jpg" width="140" height="140" alt=""/>
+  <img class="item" src="img/employer-1.jpg" width="140" height="140" alt=""/>
+ </div>
+ <div class="item thumb-swipe">
+  <img class="item" src="img/employer-1.jpg" width="140" height="140" alt=""/>
+  <img class="item" src="img/employer-2.jpg" width="140" height="140" alt=""/>
+  <img class="item" src="img/employer-3.jpg" width="140" height="140" alt=""/>
+ </div>
+ <div class="item thumb-swipe">
+  <img class="item" src="img/employer-4.jpg" width="140" height="140" alt=""/>
+  <img class="item" src="img/employer-5.jpg" width="140" height="140" alt=""/>
+  <img class="item" src="img/employer-6.jpg" width="140" height="140" alt=""/>
+ </div>
+ <div class="item thumb-swipe">
+  <img class="item" src="img/employer-7.jpg" width="140" height="140" alt=""/>
+  <img class="item" src="img/employer-8.jpg" width="140" height="140" alt=""/>
+  <img class="item" src="img/employer-9.jpg" width="140" height="140" alt=""/>
+ </div>
+ <div class="item thumb-swipe">
+  <img class="item" src="img/employer-10.jpg" width="140" height="140" alt=""/>
+  <img class="item" src="img/employer-1.jpg" width="140" height="140" alt=""/>
+  <img class="item" src="img/employer-2.jpg" width="140" height="140" alt=""/>
+ </div>
+ <div class="item thumb-swipe">
+  <img class="item" src="img/employer-3.jpg" width="140" height="140" alt=""/>
+  <img class="item" src="img/employer-4.jpg" width="140" height="140" alt=""/>
+  <img class="item" src="img/employer-5.jpg" width="140" height="140" alt=""/>
+ </div>
+ <div class="item thumb-swipe">
+  <img class="item" src="img/employer-6.jpg" width="140" height="140" alt=""/>
+  <img class="item" src="img/employer-7.jpg" width="140" height="140" alt=""/>
+  <img class="item" src="img/employer-8.jpg" width="140" height="140" alt=""/>
+ </div>
+ <div class="item thumb-swipe">
+  <img class="item" src="img/employer-9.jpg" width="140" height="140" alt=""/>
+  <img class="item" src="img/employer-10.jpg" width="140" height="140" alt=""/>
+  <img class="item" src="img/employer-1.jpg" width="140" height="140" alt=""/>
+ </div>
+ <div class="item thumb-swipe">
+  <img class="item" src="img/employer-2.jpg" width="140" height="140" alt=""/>
+  <img class="item" src="img/employer-3.jpg" width="140" height="140" alt=""/>
+  <img class="item" src="img/employer-4.jpg" width="140" height="140" alt=""/>
+ </div>
+ <div class="item thumb-swipe">
+  <img class="item" src="img/employer-5.jpg" width="140" height="140" alt=""/>
+  <img class="item" src="img/employer-6.jpg" width="140" height="140" alt=""/>
+  <img class="item" src="img/employer-7.jpg" width="140" height="140" alt=""/>
+ </div>
+ <div class="item thumb-swipe">
+  <img class="item" src="img/employer-8.jpg" width="140" height="140" alt=""/>
+  <img class="item" src="img/employer-9.jpg" width="140" height="140" alt=""/>
+  <img class="item" src="img/employer-10.jpg" width="140" height="140" alt=""/>
+ </div>
+ </div>
+ 
+
+</section>
+
+<section class="about-bottom team">
+ <div class="wrapper">
+  <div data-bottom-top="opacity:0; transform:translateY(250px);" 
+       data-bottom-bottom="opacity:1; transform:translateY(0);">
+   <h2><i class="ico"><img src="img/icon-office-man.png" width="104" height="104" alt=""/></i>Work somewhere <br />worthy of you</h2>
+  </div>
+  <div data-bottom-top="opacity:0; transform:translateY(250px);" 
+       data-bottom-bottom="opacity:1; transform:translateY(0);">
+    <h3 class="gray">At Assero, we don’t believe in “jobs.”
+  If you’re going to spend 40 hours a week doing something,
+  it better matter. If you feel the same, we invite you to
+  browse our openings below.</h3>
+    <p class="apply-ln">To apply for a career at Assero, see our open positions on Linkedin.</p>
+    <a class="ln-link" href="#">LINKEDIN CAREERS</a>
+  </div>
+ </div>
+</section>
+
+<footer>
+ <div class="media-wrapper">
+   <div class="media">
+    <div class="box title">
+     <h2>Media<br />& Tech</h2>
+    </div>
+    <a href="#" class="box">
+     <div class="box-img">
+      <img src="img/footer_01_thumb.jpg" width="125" height="125" alt=""/>
+     </div> 
+     <p class="num">1</p>
+     <p>Lorem ipsum dolor sit
+  amet, consectetuer adip
+  iscing elit sed.</p>
+    </a>
+    <a href="#" class="box">
+     <div class="box-img">
+      <img src="img/footer_02_thumb.jpg" width="125" height="125" alt=""/> 
+     </div>
+     <p class="num">2</p>
+     <p>Lorem ipsum dolor sit
+  amet, consectetuer adip
+  iscing elit sed.</p>
+    </a>
+    <a href="#" class="box">
+     <div class="box-img">
+      <img src="img/footer_03_thumb.jpg" width="125" height="125" alt=""/>
+     </div>
+     <p class="num">3</p> 
+     <p>Lorem ipsum dolor sit
+  amet, consectetuer adip
+  iscing elit sed.</p>
+    </a>
+   </div>
+ </div>
+ <div class="bottom-line">
+  <div class="wrapper">
+    <div class="info">
+     <span>13155 SW 42nd Street</span>
+     <span>Suite 200</span>
+     <span>Miami, FL 33175</span>
+     <span>866.832.1711</span>
+     <span><a href="mailto:info@assero24.com">info@assero24.com</a></span>
+    </div>
+    <div class="copy">&copy;2016 Assero Services. All Rights Reserved.</div>
+  </div>
+ </div>
+</footer>
+
+
+<script src="js/jquery-1.11.0.min.js"></script>
+<script src="js/jquery.sumoselect.min.js"></script>
+<script src="js/jquery.cycle2.min.js"></script>
+<script src="js/skrollr.min.js"></script>
+<script src="js/scripts.js"></script>
+
+<script>
+
+$('.employers .thumb-swipe:nth-child(even)').addClass('second');
+$('.employers .thumb-swipe:nth-child(odd)').addClass('first');
+$('.thumb-swipe.first').cycle({ 
+    fx:     'fade',
+	speed: 2000,
+    timeout: 2000,
+    pauseOnHover: true,
+	delay:  1000 
+});
+$('.thumb-swipe.second').cycle({ 
+    fx:     'fade',
+	speed: 2000,
+    timeout: 2000,
+    pauseOnHover: true,
+    delay:  3000 
+});
+
+</script>
+
+</body>
+</html>
